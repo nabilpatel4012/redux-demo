@@ -22,7 +22,7 @@ const Products: React.FC = () => {
     fetchProducts();
   }, [])
 
-  const handleAdd =(product: Product) =>{
+  const handleAdd = (product: Product) =>{
     dispatch(add(product));
   }
   return (
